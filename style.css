@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: salmon;
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 3rem;
+  margin-top: 5rem;
+  border: 3px solid #423d3d;
+  border-radius: 5px;
+  background: #f0ada5;
+}
+
+main div {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 3rem;
+  border: 2px solid #423d3d;
+  background: #f0ada5;
+}
+
+button {
+  padding: 0.5rem;
+  background: yellowgreen;
+  border: 1px solid #423d3d;
+}
