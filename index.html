@@ -7,32 +7,42 @@
     <title>Background Color Changer</title>
   </head>
   <body>
-    <header>
-      <h1>Background Color Changer</h1>
-    </header>
-    <main>
-      <div>
-        <label for="ColorChoice">Color Select:</label>
-        <select id="ColorChoice">
-          <option value="yellow">Yellow</option>
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-        </select>
-        <button id="change1">Change</button>
-      </div>
-      <br />
-      <div>
-        <label for="colorInput">Color Name:</label>
-        <input id="colorInput" type="text" />
-        <button id="change2">Change</button>
-      </div>
-      <br />
-      <div>
-        <label for="colorChoiceDeluxe">Color Choice DELUXE:</label>
-        <input id="colorChoiceDeluxe" type="color" />
-        <button id="change3">Change</button>
-      </div>
-    </main>
+    <div class="wrapper">
+      <header>
+        <h1>Background Color Changer</h1>
+      </header>
+      <main>
+        <div>
+          <label for="ColorChoice">Color Select:</label>
+          <select id="ColorChoice">
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+            <option value="orange">Orange</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="brown">Brown</option>
+            <option value="grey">Grey</option>
+            <option value="black">Black</option>
+          </select>
+          <button id="change1">Change</button>
+        </div>
+        <br />
+        <div>
+          <label for="colorInput">Color Name:</label>
+          <input id="colorInput" type="text" placeholder=" eg: maroon" />
+          <button id="change2">Change</button>
+        </div>
+        <br />
+        <div>
+          <label for="colorChoiceDeluxe">Color Choice DELUXE:</label>
+          <input id="colorChoiceDeluxe" type="color" placeholder="#ffb062" />
+          <button id="change3">Change</button>
+        </div>
+      </main>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

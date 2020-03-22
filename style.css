@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 body {
   background: white;
-  height: 100vh;
   text-align: center;
   font-family: sans-serif;
 }
@@ -14,10 +14,8 @@ body {
 header h1 {
   display: inline-block;
   padding: 3rem;
-  margin-top: 5rem;
   border: 3px solid #423d3d;
-  border-radius: 5px;
-  background: #f0ada5;
+  background: white;
 }
 
 main div {
@@ -25,11 +23,20 @@ main div {
   padding: 1rem;
   margin-top: 3rem;
   border: 2px solid #423d3d;
-  background: #f0ada5;
+  background: white;
+}
+
+input[type="text"],
+select {
+  padding: 0.5rem;
 }
 
 button {
   padding: 0.5rem;
   background: yellowgreen;
   border: 1px solid #423d3d;
+}
+
+.wrapper {
+  padding: 3rem 1rem;
 }

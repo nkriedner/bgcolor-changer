@@ -23,6 +23,7 @@ input.addEventListener("keyup", function() {
   }
 });
 
+colorChoiceDeluxe.value = "#a6a6ff";
 change3.addEventListener("click", function() {
   body.style.background = colorChoiceDeluxe.value;
 });
